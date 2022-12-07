@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    --red: #ff3838;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+
+
+
+
+*::selection {
+    background: var(--red);
+    color: #fff;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+p body {
+    background: #f5e2cf;
+}
+
+/*----header---*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(4, 92, 40, 0.952);
+    padding: 2rem 9%;
+    box-shadow: 0 .5rem 1rem rgba(236, 229, 229, 0.1);
+}
+
+font-size: 2rem;
+margin-left: 2rem;
+color: rgba(245, 250, 252, 0.89);
+
+header .navbar i {
+    padding: 2rem;
+    margin-left: 2rem;
+    color: var(--red);
+}
+
+header .navbar a {
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: rgb(241, 226, 226);
+}
+
+header .logo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: rgb(245, 234, 234);
+}
+
+header .logo i {
+    padding-right: .5rem;
+    color: var(--red);
+
+}
+
+header .navbar a:hover {
+    color: var(--red);
+}
+
+header .navbar {
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: rgba(245, 250, 252, 0.89);
+}
+
+
+span {
+    color: rgb(185, 129, 6);
+}
+
+/*----home---*/
+.home {
+    align-items: center;
+    background: url(/vaccine.jpeg)no-repeat;
+    background-position: center;
+
+    padding: 10px;
+    background-size: cover;
+    margin-top: 13rem;
+    height: 600px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.home .content {
+    text-align: center;
+}
+
+.home .content h3 {
+    font-size: 5rem;
+    color: rgb(178, 216, 7);
+    text-align: left;
+    padding: 1.3rem;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.home .content p {
+    font-size: 1.7rem;
+    color: rgb(235, 223, 223);
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background: rgb(4, 92, 40, 0.952);
+    color: yellow;
+    align-items: lef;
+}
+
+img {
+    height: 200px;
+}
+
+/*----para---*/
+.para {
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 40px;
+}
+
+h1 {
+    margin-top: 90px;
+    margin-left: 26px;
+    font-size: 4.5rem;
+}
+
+.para a {
+    color: #eef107
+}
+
+.foster {
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(4, 92, 40, 0.952);
+    padding: 2rem 9%;
+    box-shadow: 0 .5rem 1rem rgba(236, 229, 229, 0.1);
+    text-align: center;
+    color: white;
+}
+
+.fs {
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    box-shadow: 0 .5rem 1rem rgba(236, 229, 229, 0.1);
+    text-align: center;
+    margin-left: 10px;
+    color: white;
+    margin-right: 10px;
+}
+
+.co {
+    text-decoration: underline;
+    text-decoration-color: rgb(70, 70, 202);
+}
+
+.review .box-contain {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.review .box-contain .box {
+    text-align: left;
+    flex: 1 1 30rem;
+
+}
+
+
+.review .box-contain .box p {
+    font-size: 1.7rem;
+    color: rgb(26, 23, 23);
+    padding: 1rem 0;
+}
+
+.review .box-contain .box video {
+    width: 50%;
+
+}
+
+table {
+    color: rgb(10, 10, 10);
+    background-color: rgb(13, 70, 2);
+    text-align: left;
+    border: .2px solid;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 10px;
+}
+
+
+.cl {
+    margin-top: 0px;
+}
+
+.per {
+    background-color: rgb(13, 70, 2);
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 5px;
+    margin-top: 0px;
+}
+
+form {
+    margin-top: 170px;
+    border: 1px solid;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-color: green;
+    background: green;
+    padding-right: 0px;
+}
+
+form input {
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 10px;
+    border: 1px solid;
+    border-width: 10px;
+    border-color: white;
+    padding-right: 50%
+}
+
+form label {
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+form h2 {
+    margin-left: 10px;
+
+}
+
+form h1 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+form .ere {
+    margin-left: 10px;
+    text-align: center;
+    background: rgb(2, 54, 15);
+    border-color: rgb(2, 54, 15);
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 4opx;
+}
+
+/*----tab--*/
+
+/*----header---*/
+
+/*----header---*/
